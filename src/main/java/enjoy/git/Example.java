@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class Example {
     @RequestMapping("/")
     String home() {
-        return "Hello Git! -V.08 -master update  ---merge合并分支 111 --github ";
+        return "Hello Git! -V.08 -master update  ---merge合并分支 111 2222 --github ";
     }
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Example.class, args);
